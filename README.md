@@ -24,7 +24,7 @@
 - Dispositivos móveis (iOS/Android)
 
 ## Desenvolvido por
-Manus AI - Sistema de desenvolvimento web automatizado
+joaopolisk
 
 ---
 © 2025 Armazém do Esporte. Todos os direitos reservados.
