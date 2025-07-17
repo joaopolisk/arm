@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Armazém do Esporte - Roupas Fitness e Suplementos</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <img src="images/logo.png" alt="Armazém do Esporte" class="logo-img">
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#inicio" class="nav-link">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#produtos" class="nav-link">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contato" class="nav-link">Contato</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Roupas fitness para o seu treino</h1>
+                <p class="hero-subtitle">Encontre os melhores produtos para potencializar seus resultados na academia</p>
+                <button class="cta-button">Ver Produtos</button>
+            </div>
+        </div>
+        <div class="hero-background">
+            <img src="images/hero_background.jpg" alt="Academia Fitness" class="hero-img">
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="produtos" class="products">
+        <div class="container">
+            <h2 class="section-title">Nossos Produtos</h2>
+            <div class="products-grid">
+                <div class="product-card" data-product="camiseta">
+                    <div class="product-image">
+                        <img src="images/camiseta.jpg" alt="Camiseta Fitness">
+                        <div class="product-overlay">
+                            <button class="product-btn">Ver Detalhes</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Camiseta Fitness</h3>
+                        <p class="product-price">R$ 89,90</p>
+                    </div>
+                </div>
+
+                <div class="product-card" data-product="leg">
+                    <div class="product-image">
+                        <img src="images/1615.jpg" alt="Leg Fitness">
+                        <div class="product-overlay">
+                            <button class="product-btn">Ver Detalhes</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Leg Fitness</h3>
+                        <p class="product-price">R$ 129,90</p>
+                    </div>
+                </div>
+
+                <div class="product-card" data-product="luva">
+                    <div class="product-image">
+                        <img src="images/luva.jpg" alt="Luva de Treino">
+                        <div class="product-overlay">
+                            <button class="product-btn">Ver Detalhes</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Luva de Treino</h3>
+                        <p class="product-price">R$ 49,90</p>
+                    </div>
+                </div>
+
+                <div class="product-card" data-product="proteina">
+                    <div class="product-image">
+                        <img src="images/proteina.jpg" alt="Whey Protein">
+                        <div class="product-overlay">
+                            <button class="product-btn">Ver Detalhes</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Whey Protein</h3>
+                        <p class="product-price">R$ 159,90</p>
+                    </div>
+                </div>
+
+                <div class="product-card" data-product="creatina">
+                    <div class="product-image">
+                        <img src="images/creatina.jpg" alt="Creatina">
+                        <div class="product-overlay">
+                            <button class="product-btn">Ver Detalhes</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Creatina</h3>
+                        <p class="product-price">R$ 79,90</p>
+                    </div>
+                </div>
+
+                <div class="product-card" data-product="pre-treino">
+                    <div class="product-image">
+                        <img src="images/pre_treino.jpg" alt="Pré-Treino">
+                        <div class="product-overlay">
+                            <button class="product-btn">Ver Detalhes</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Pré-Treino</h3>
+                        <p class="product-price">R$ 99,90</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contato" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">Armazém do Esporte</h3>
+                    <p class="footer-text">Sua loja de confiança para roupas fitness e suplementos alimentares.</p>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">Contato</h3>
+                    <p class="footer-text">
+                        <i class="fas fa-envelope"></i>
+                        contato@armazemdoesporte.com.br
+                    </p>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">Redes Sociais</h3>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/armazemdoesporteacademia/" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.facebook.com/armazemdoesportecuriuva" class="social-link">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://wa.me/5543991486807?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20produtos%20fitness!" class="social-link">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Armazém do Esporte. Todos os direitos reservados. Powered by {CoDeBrS42}.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Product Modal -->
+    <div id="productModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img id="modalImage" src="" alt="">
+                </div>
+                <div class="modal-info">
+                    <h2 id="modalTitle"></h2>
+                    <p id="modalPrice"></p>
+                    <p id="modalDescription"></p>
+                    <div class="modal-actions">
+                        <button class="add-to-cart-btn">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
